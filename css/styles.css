@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
+    background-color: #E5E5E5;
 }
 
 ul, ol {
@@ -10,6 +11,27 @@ ul, ol {
 a {
     text-decoration: none;
 }
+
+.button {
+    cursor: pointer;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 
 /* ---------HEADER--------- */
 
@@ -24,7 +46,7 @@ a {
 }
 
 .logo-purple {
-    color: #4d5ae5;;
+    color: #4d5ae5;
 }
 
 .navigation-link {
@@ -35,26 +57,42 @@ a {
     color: #2e2f42;
 }
 
-.address-list {
-    font-weight: 400;
+.link-style:hover, .link-style:focus {
+    color: #404BBF;
+}
+
+.address-link {
     font-size: 16px;
+    font-style: normal;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 /* ---------HEADER--------- */
 
 /* ---------HERO--------- */
 
-.tittle-main {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 107%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+.hero {
+    background-color: #2e2f42;
 }
+
+.tittle-main {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}  
 
 .button-order {
     font-weight: 500;
@@ -62,6 +100,11 @@ a {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
+    background-color: #4D5AE5;
+}
+
+.button-order:hover, .button-order:focus {
+    background-color: #404BBF;
 }
 
 /* ---------HERO--------- */
@@ -69,24 +112,20 @@ a {
 /* ---------SECTION 2--------- */
 
 .benefit-item {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-
-.benefit-desc {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 /* ---------SECTION 2--------- */
 
 /* ---------SECTION 3--------- */
+
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-member {
     font-weight: 500;
@@ -98,7 +137,6 @@ a {
 }
 
 .member-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -110,40 +148,32 @@ a {
 
 /* ---------SECTION 4--------- */
 
-.title-portfolio {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.portfolio-item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.portfolio-item-desc {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
+.portfolio-list {
+    background-color: #FFFFFF;
 }
 
 /* ---------SECTION 4--------- */
 
 /* ---------FOOTER--------- */
 
+.footer {
+    background: #2e2f42;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
+    line-height:150%;
+    letter-spacing:0.02em;
     color: #f4f4fd;
 }
 
